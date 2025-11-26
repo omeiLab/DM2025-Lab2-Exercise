@@ -1,0 +1,249 @@
+<style>
+.lx-highlight { position: relative; border-radius:3px; padding:1px 2px;}
+.lx-highlight .lx-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 4px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  max-width: 240px;
+  white-space: normal;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.lx-highlight:hover .lx-tooltip { visibility: visible; opacity:1; }
+.lx-animated-wrapper { max-width: 100%; font-family: Arial, sans-serif; }
+.lx-controls {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 8px;
+  padding: 12px; margin-bottom: 16px;
+}
+.lx-button-row {
+  display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;
+}
+.lx-control-btn {
+  background: #4285f4; color: white; border: none; border-radius: 4px;
+  padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 500;
+  transition: background-color 0.2s;
+}
+.lx-control-btn:hover { background: #3367d6; }
+.lx-progress-container {
+  margin-bottom: 8px;
+}
+.lx-progress-slider {
+  width: 100%; margin: 0; appearance: none; height: 6px;
+  background: #ddd; border-radius: 3px; outline: none;
+}
+.lx-progress-slider::-webkit-slider-thumb {
+  appearance: none; width: 18px; height: 18px; background: #4285f4;
+  border-radius: 50%; cursor: pointer;
+}
+.lx-progress-slider::-moz-range-thumb {
+  width: 18px; height: 18px; background: #4285f4; border-radius: 50%;
+  cursor: pointer; border: none;
+}
+.lx-status-text {
+  text-align: center; font-size: 12px; color: #666; margin-top: 4px;
+}
+.lx-text-window {
+  font-family: monospace; white-space: pre-wrap; border: 1px solid #90caf9;
+  padding: 12px; max-height: 260px; overflow-y: auto; margin-bottom: 12px;
+  line-height: 1.6;
+}
+.lx-attributes-panel {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 6px;
+  padding: 8px 10px; margin-top: 8px; font-size: 13px;
+}
+.lx-current-highlight {
+  border-bottom: 4px solid #ff4444;
+  font-weight: bold;
+  animation: lx-pulse 1s ease-in-out;
+}
+@keyframes lx-pulse {
+  0% { text-decoration-color: #ff4444; }
+  50% { text-decoration-color: #ff0000; }
+  100% { text-decoration-color: #ff4444; }
+}
+.lx-legend {
+  font-size: 12px; margin-bottom: 8px;
+  padding-bottom: 8px; border-bottom: 1px solid #e0e0e0;
+}
+.lx-label {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 4px;
+  color: #000;
+}
+.lx-attr-key {
+  font-weight: 600;
+  color: #1565c0;
+  letter-spacing: 0.3px;
+}
+.lx-attr-value {
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 0.2px;
+}
+
+/* Add optimizations with larger fonts and better readability for GIFs */
+.lx-gif-optimized .lx-text-window { font-size: 16px; line-height: 1.8; }
+.lx-gif-optimized .lx-attributes-panel { font-size: 15px; }
+.lx-gif-optimized .lx-current-highlight { text-decoration-thickness: 4px; }
+</style>
+    <div class="lx-animated-wrapper lx-gif-optimized">
+      <div class="lx-attributes-panel">
+        <div class="lx-legend">Highlights Legend: <span class="lx-label" style="background-color:#D2E3FC;">opinion_statement</span></div>
+        <div id="attributesContainer"></div>
+      </div>
+      <div class="lx-text-window" id="textWindow">
+        **Page 1**
+&quot;&quot;&quot;
+movie.md
+2025-11-26
+1 / 2
+Zootopia 2 Reviews
+Website: https://www.filmink.com.au/reviews/zootopia-2/
+by Cain Noble-Davies
+Year: 2025
+Director: Jared Bush, Byron Howard
+Rated: PG
+Release: 27 November 2025
+Distributor: Disney
+Running time: 108 minutes
+Worth: $16.00
+FilmInk rates movies out of $20 — the score indicates the amount we believe a ticket to the movie to be
+worth
+Cast:
+innifer Goodwin, Jason Bateman, Ke Huy Quan, Fortune Feimster, Andy Samberg, David Strathairn, Idris Elba,
+Shakira
+Intro:
+… <span class="lx-highlight lx-current-highlight" data-idx="0" style="background-color:#D2E3FC;">a great big fuzzy ball of fun</span>.
+While the efforts of Walt Disney Animation Studios in the 2010s has largely been remembered for its additions
+to the Princess canon with the Frozen duology as well as Moana, Zootopia has shown itself to be their big
+sleeper hit from that decade. Some of that could be because the film’s full-force and surprisingly brainy
+allegory for racial stereotyping and discrimination feels like it’s only gained relevance in the decade since its
+initial release; and of course, the online furry community.
+This follow-up doesn’t go with the same style of commentary as its predecessor. The amount of script space
+once reserved for an <span class="lx-highlight" data-idx="1" style="background-color:#D2E3FC;">impressive vocabulary of microaggressions</span> is now being used for <span class="lx-highlight" data-idx="2" style="background-color:#D2E3FC;">enough puns to make
+Mr. Peabody &amp; Sherman blush</span>, and the most out-of-nowhere cameos found outside of a Warner Bros.
+production. The sequel focuses more on societal effects than social ones, with a plot entrenched in the
+logistics of gentrification.
+If you’re not looking for subtext, then you can also enjoy how <span class="lx-highlight" data-idx="3" style="background-color:#D2E3FC;">endlessly adorable this film looks</span>. <span class="lx-highlight" data-idx="4" style="background-color:#D2E3FC;">The
+animation is excellent</span>, and the further fleshing out of the titular cluster of biomes allows for <span class="lx-highlight" data-idx="5" style="background-color:#D2E3FC;">gorgeous scenery
+and atmosphere</span>, but <span class="lx-highlight" data-idx="6" style="background-color:#D2E3FC;">it’s the characters who still make it all click</span>. Ginnifer Goodwin and Jason Bateman are <span class="lx-highlight" data-idx="7" style="background-color:#D2E3FC;">as
+tight as ever</span> as Hopps &amp; Wilde, everyone else around them are <span class="lx-highlight" data-idx="8" style="background-color:#D2E3FC;">well-used</span> (even if the appearance from ‘Bob
+Tiger’ pushes things a bit), and the character designs remain <span class="lx-highlight" data-idx="9" style="background-color:#D2E3FC;">peak plush-toy material</span>. The way the animators
+make new addition Gary De’Snake (Ke Huy Quan <span class="lx-highlight" data-idx="10" style="background-color:#D2E3FC;">finally getting to be in a good movie this year</span>) look just as
+&quot;&quot;&quot;
+
+**Page 2**
+&quot;&quot;&quot;
+movie.md
+2025-11-26
+2 / 2
+aggressively huggable as Hopps, or even the returning Benjamin Clawhauser, <span class="lx-highlight" data-idx="11" style="background-color:#D2E3FC;">adds to the bigger theming</span>,
+showing the entire animal kingdom as <span class="lx-highlight" data-idx="12" style="background-color:#D2E3FC;">something worthy of love, rather than fear</span>.
+<span class="lx-highlight" data-idx="13" style="background-color:#D2E3FC;">Its entertainment value goes quite a bit beneath the surface too</span>. It still plays into the ‘Lethal Weapon with
+bunny ears’ trappings of the original, but mingled in with the buddy cop tropes is <span class="lx-highlight" data-idx="14" style="background-color:#D2E3FC;">a more adventurous, even
+globe-trotting approach to story and action set pieces</span>, <span class="lx-highlight" data-idx="15" style="background-color:#D2E3FC;">giving a major shot of adrenaline to the proceedings</span>,
+especially when backed by Michael Giacchino’s <span class="lx-highlight" data-idx="16" style="background-color:#D2E3FC;">exquisite soundtrack</span>. Even the aforementioned punning, both
+in writing and in delivery by both actors and background details, <span class="lx-highlight" data-idx="17" style="background-color:#D2E3FC;">goes from annoying to begrudgingly
+impressive after a while</span>. It probably helps that <span class="lx-highlight" data-idx="18" style="background-color:#D2E3FC;">the film fires one-off gags and quips at a mile a minute</span>, so it
+<span class="lx-highlight" data-idx="19" style="background-color:#D2E3FC;">benefits from the Waiting For A Bus principle</span>: If one doesn’t get you, chances are there’ll be another dozen
+right behind it that probably will.
+Zootopia 2 is <span class="lx-highlight" data-idx="20" style="background-color:#D2E3FC;">a great big fuzzy ball of fun</span>. It holds back on some of the original’s bluntness but <span class="lx-highlight" data-idx="21" style="background-color:#D2E3FC;">still manages
+to deliver its own statements on systemic discrimination while keeping things engaging, heartwarming, and
+almost-embarrassingly funny</span>. <span class="lx-highlight" data-idx="22" style="background-color:#D2E3FC;">It’s called a good time, sweetheart</span>.
+&quot;&quot;&quot;
+
+
+      </div>
+      <div class="lx-controls">
+        <div class="lx-button-row">
+          <button class="lx-control-btn" onclick="playPause()">▶️ Play</button>
+          <button class="lx-control-btn" onclick="prevExtraction()">⏮ Previous</button>
+          <button class="lx-control-btn" onclick="nextExtraction()">⏭ Next</button>
+        </div>
+        <div class="lx-progress-container">
+          <input type="range" id="progressSlider" class="lx-progress-slider"
+                 min="0" max="22" value="0"
+                 onchange="jumpToExtraction(this.value)">
+        </div>
+        <div class="lx-status-text">
+          Entity <span id="entityInfo">1/23</span> |
+          Pos <span id="posInfo">[519-548]</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function() {
+        const extractions = [{"index": 0, "class": "opinion_statement", "text": "a great big fuzzy ball of fun", "color": "#D2E3FC", "startPos": 519, "endPos": 548, "beforeText": "e movie to be\nworth\nCast:\ninnifer Goodwin, Jason Bateman, Ke Huy Quan, Fortune Feimster, Andy Samberg, David Strathairn, Idris Elba,\nShakira\nIntro:\n\u2026 ", "extractionText": "a great big fuzzy ball of fun", "afterText": ".\nWhile the efforts of Walt Disney Animation Studios in the 2010s has largely been remembered for its additions\nto the Princess canon with the Frozen ", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">great big fuzzy ball of fun</span>}</div>"}, {"index": 1, "class": "opinion_statement", "text": "impressive vocabulary of microaggressions", "color": "#D2E3FC", "startPos": 1174, "endPos": 1215, "beforeText": "line furry community.\nThis follow-up doesn\u2019t go with the same style of commentary as its predecessor. The amount of script space\nonce reserved for an ", "extractionText": "impressive vocabulary of microaggressions", "afterText": " is now being used for enough puns to make\nMr. Peabody &amp; Sherman blush, and the most out-of-nowhere cameos found outside of a Warner Bros.\nproduction.", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The script</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">impressive vocabulary</span>}</div>"}, {"index": 2, "class": "opinion_statement", "text": "enough puns to make Mr. Peabody & Sherman blush", "color": "#D2E3FC", "startPos": 1238, "endPos": 1285, "beforeText": "yle of commentary as its predecessor. The amount of script space\nonce reserved for an impressive vocabulary of microaggressions is now being used for ", "extractionText": "enough puns to make\nMr. Peabody &amp; Sherman blush", "afterText": ", and the most out-of-nowhere cameos found outside of a Warner Bros.\nproduction. The sequel focuses more on societal effects than social ones, with a ", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The script</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">enough puns</span>}</div>"}, {"index": 3, "class": "opinion_statement", "text": "endlessly adorable this film looks", "color": "#D2E3FC", "startPos": 1550, "endPos": 1584, "beforeText": "l effects than social ones, with a plot entrenched in the\nlogistics of gentrification.\nIf you\u2019re not looking for subtext, then you can also enjoy how ", "extractionText": "endlessly adorable this film looks", "afterText": ". The\nanimation is excellent, and the further fleshing out of the titular cluster of biomes allows for gorgeous scenery\nand atmosphere, but it\u2019s the c", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">endlessly adorable</span>}</div>"}, {"index": 4, "class": "opinion_statement", "text": "The animation is excellent", "color": "#D2E3FC", "startPos": 1586, "endPos": 1612, "beforeText": "lot entrenched in the\nlogistics of gentrification.\nIf you\u2019re not looking for subtext, then you can also enjoy how endlessly adorable this film looks. ", "extractionText": "The\nanimation is excellent", "afterText": ", and the further fleshing out of the titular cluster of biomes allows for gorgeous scenery\nand atmosphere, but it\u2019s the characters who still make it ", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The animation</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">excellent</span>}</div>"}, {"index": 5, "class": "opinion_statement", "text": "gorgeous scenery and atmosphere", "color": "#D2E3FC", "startPos": 1687, "endPos": 1718, "beforeText": "so enjoy how endlessly adorable this film looks. The\nanimation is excellent, and the further fleshing out of the titular cluster of biomes allows for ", "extractionText": "gorgeous scenery\nand atmosphere", "afterText": ", but it\u2019s the characters who still make it all click. Ginnifer Goodwin and Jason Bateman are as\ntight as ever as Hopps &amp; Wilde, everyone else around ", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The scenery and atmosphere</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">gorgeous</span>}</div>"}, {"index": 6, "class": "opinion_statement", "text": "it\u2019s the characters who still make it all click", "color": "#D2E3FC", "startPos": 1724, "endPos": 1771, "beforeText": "film looks. The\nanimation is excellent, and the further fleshing out of the titular cluster of biomes allows for gorgeous scenery\nand atmosphere, but ", "extractionText": "it\u2019s the characters who still make it all click", "afterText": ". Ginnifer Goodwin and Jason Bateman are as\ntight as ever as Hopps &amp; Wilde, everyone else around them are well-used (even if the appearance from \u2018Bob\n", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The characters</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">make it all click</span>}</div>"}, {"index": 7, "class": "opinion_statement", "text": "as tight as ever", "color": "#D2E3FC", "startPos": 1812, "endPos": 1828, "beforeText": "ter of biomes allows for gorgeous scenery\nand atmosphere, but it\u2019s the characters who still make it all click. Ginnifer Goodwin and Jason Bateman are ", "extractionText": "as\ntight as ever", "afterText": " as Hopps &amp; Wilde, everyone else around them are well-used (even if the appearance from \u2018Bob\nTiger\u2019 pushes things a bit), and the character designs re", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Ginnifer Goodwin and Jason Bateman</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">tight as ever</span>}</div>"}, {"index": 8, "class": "opinion_statement", "text": "well-used", "color": "#D2E3FC", "startPos": 1877, "endPos": 1886, "beforeText": "s the characters who still make it all click. Ginnifer Goodwin and Jason Bateman are as\ntight as ever as Hopps &amp; Wilde, everyone else around them are ", "extractionText": "well-used", "afterText": " (even if the appearance from \u2018Bob\nTiger\u2019 pushes things a bit), and the character designs remain peak plush-toy material. The way the animators\nmake n", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">everyone else around them</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">well-used</span>}</div>"}, {"index": 9, "class": "opinion_statement", "text": "peak plush-toy material", "color": "#D2E3FC", "startPos": 1983, "endPos": 2006, "beforeText": "opps &amp; Wilde, everyone else around them are well-used (even if the appearance from \u2018Bob\nTiger\u2019 pushes things a bit), and the character designs remain ", "extractionText": "peak plush-toy material", "afterText": ". The way the animators\nmake new addition Gary De\u2019Snake (Ke Huy Quan finally getting to be in a good movie this year) look just as\n&quot;&quot;&quot;\n\n**Page 2**\n&quot;&quot;&quot;", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The character designs</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">peak plush-toy material</span>}</div>"}, {"index": 10, "class": "opinion_statement", "text": "finally getting to be in a good movie this year", "color": "#D2E3FC", "startPos": 2075, "endPos": 2122, "beforeText": "r\u2019 pushes things a bit), and the character designs remain peak plush-toy material. The way the animators\nmake new addition Gary De\u2019Snake (Ke Huy Quan ", "extractionText": "finally getting to be in a good movie this year", "afterText": ") look just as\n&quot;&quot;&quot;\n\n**Page 2**\n&quot;&quot;&quot;\nmovie.md\n2025-11-26\n2 / 2\naggressively huggable as Hopps, or even the returning Benjamin Clawhauser, adds to the bi", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Ke Huy Quan</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">good movie</span>}</div>"}, {"index": 11, "class": "opinion_statement", "text": "adds to the bigger theming", "color": "#D2E3FC", "startPos": 2258, "endPos": 2284, "beforeText": "ovie this year) look just as\n&quot;&quot;&quot;\n\n**Page 2**\n&quot;&quot;&quot;\nmovie.md\n2025-11-26\n2 / 2\naggressively huggable as Hopps, or even the returning Benjamin Clawhauser, ", "extractionText": "adds to the bigger theming", "afterText": ",\nshowing the entire animal kingdom as something worthy of love, rather than fear.\nIts entertainment value goes quite a bit beneath the surface too. I", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The way the animators make new addition Gary De\u2019Snake look just as aggressively huggable as Hopps, or even the returning Benjamin Clawhauser</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">bigger theming</span>}</div>"}, {"index": 12, "class": "opinion_statement", "text": "something worthy of love, rather than fear", "color": "#D2E3FC", "startPos": 2323, "endPos": 2365, "beforeText": "-26\n2 / 2\naggressively huggable as Hopps, or even the returning Benjamin Clawhauser, adds to the bigger theming,\nshowing the entire animal kingdom as ", "extractionText": "something worthy of love, rather than fear", "afterText": ".\nIts entertainment value goes quite a bit beneath the surface too. It still plays into the \u2018Lethal Weapon with\nbunny ears\u2019 trappings of the original,", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The entire animal kingdom</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">worthy of love</span>}</div>"}, {"index": 13, "class": "opinion_statement", "text": "Its entertainment value goes quite a bit beneath the surface too", "color": "#D2E3FC", "startPos": 2367, "endPos": 2431, "beforeText": " even the returning Benjamin Clawhauser, adds to the bigger theming,\nshowing the entire animal kingdom as something worthy of love, rather than fear.\n", "extractionText": "Its entertainment value goes quite a bit beneath the surface too", "afterText": ". It still plays into the \u2018Lethal Weapon with\nbunny ears\u2019 trappings of the original, but mingled in with the buddy cop tropes is a more adventurous, e", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Its entertainment value</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">goes quite a bit beneath the surface</span>}</div>"}, {"index": 14, "class": "opinion_statement", "text": "a more adventurous, even globe-trotting approach to story and action set pieces", "color": "#D2E3FC", "startPos": 2560, "endPos": 2639, "beforeText": "neath the surface too. It still plays into the \u2018Lethal Weapon with\nbunny ears\u2019 trappings of the original, but mingled in with the buddy cop tropes is ", "extractionText": "a more adventurous, even\nglobe-trotting approach to story and action set pieces", "afterText": ", giving a major shot of adrenaline to the proceedings,\nespecially when backed by Michael Giacchino\u2019s exquisite soundtrack. Even the aforementioned pu", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The buddy cop tropes</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">more adventurous, even globe-trotting approach</span>}</div>"}, {"index": 15, "class": "opinion_statement", "text": "giving a major shot of adrenaline to the proceedings", "color": "#D2E3FC", "startPos": 2641, "endPos": 2693, "beforeText": "appings of the original, but mingled in with the buddy cop tropes is a more adventurous, even\nglobe-trotting approach to story and action set pieces, ", "extractionText": "giving a major shot of adrenaline to the proceedings", "afterText": ",\nespecially when backed by Michael Giacchino\u2019s exquisite soundtrack. Even the aforementioned punning, both\nin writing and in delivery by both actors ", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The more adventurous, even globe-trotting approach to story and action set pieces</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">major shot of adrenaline</span>}</div>"}, {"index": 16, "class": "opinion_statement", "text": "exquisite soundtrack", "color": "#D2E3FC", "startPos": 2741, "endPos": 2761, "beforeText": "trotting approach to story and action set pieces, giving a major shot of adrenaline to the proceedings,\nespecially when backed by Michael Giacchino\u2019s ", "extractionText": "exquisite soundtrack", "afterText": ". Even the aforementioned punning, both\nin writing and in delivery by both actors and background details, goes from annoying to begrudgingly\nimpressiv", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Michael Giacchino\u2019s</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">exquisite</span>}</div>"}, {"index": 17, "class": "opinion_statement", "text": "goes from annoying to begrudgingly impressive after a while", "color": "#D2E3FC", "startPos": 2867, "endPos": 2926, "beforeText": " by Michael Giacchino\u2019s exquisite soundtrack. Even the aforementioned punning, both\nin writing and in delivery by both actors and background details, ", "extractionText": "goes from annoying to begrudgingly\nimpressive after a while", "afterText": ". It probably helps that the film fires one-off gags and quips at a mile a minute, so it\nbenefits from the Waiting For A Bus principle: If one doesn\u2019t", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The aforementioned punning, both in writing and in delivery by both actors and background details</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">begrudgingly impressive</span>}</div>"}, {"index": 18, "class": "opinion_statement", "text": "the film fires one-off gags and quips at a mile a minute", "color": "#D2E3FC", "startPos": 2951, "endPos": 3007, "beforeText": "in writing and in delivery by both actors and background details, goes from annoying to begrudgingly\nimpressive after a while. It probably helps that ", "extractionText": "the film fires one-off gags and quips at a mile a minute", "afterText": ", so it\nbenefits from the Waiting For A Bus principle: If one doesn\u2019t get you, chances are there\u2019ll be another dozen\nright behind it that probably wil", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">fires one-off gags and quips at a mile a minute</span>}</div>"}, {"index": 19, "class": "opinion_statement", "text": "benefits from the Waiting For A Bus principle", "color": "#D2E3FC", "startPos": 3015, "endPos": 3060, "beforeText": ", goes from annoying to begrudgingly\nimpressive after a while. It probably helps that the film fires one-off gags and quips at a mile a minute, so it\n", "extractionText": "benefits from the Waiting For A Bus principle", "afterText": ": If one doesn\u2019t get you, chances are there\u2019ll be another dozen\nright behind it that probably will.\nZootopia 2 is a great big fuzzy ball of fun. It ho", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film firing one-off gags and quips at a mile a minute</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">benefits from the Waiting For A Bus principle</span>}</div>"}, {"index": 20, "class": "opinion_statement", "text": "a great big fuzzy ball of fun", "color": "#D2E3FC", "startPos": 3174, "endPos": 3203, "beforeText": "from the Waiting For A Bus principle: If one doesn\u2019t get you, chances are there\u2019ll be another dozen\nright behind it that probably will.\nZootopia 2 is ", "extractionText": "a great big fuzzy ball of fun", "afterText": ". It holds back on some of the original\u2019s bluntness but still manages\nto deliver its own statements on systemic discrimination while keeping things en", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Zootopia 2</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">great big fuzzy ball of fun</span>}</div>"}, {"index": 21, "class": "opinion_statement", "text": "still manages to deliver its own statements on systemic discrimination while keeping things engaging, heartwarming, and almost-embarrassingly funny", "color": "#D2E3FC", "startPos": 3259, "endPos": 3406, "beforeText": " another dozen\nright behind it that probably will.\nZootopia 2 is a great big fuzzy ball of fun. It holds back on some of the original\u2019s bluntness but ", "extractionText": "still manages\nto deliver its own statements on systemic discrimination while keeping things engaging, heartwarming, and\nalmost-embarrassingly funny", "afterText": ". It\u2019s called a good time, sweetheart.\n&quot;&quot;&quot;\n\n", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Zootopia 2</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">engaging, heartwarming, and almost-embarrassingly funny</span>}</div>"}, {"index": 22, "class": "opinion_statement", "text": "It\u2019s called a good time, sweetheart", "color": "#D2E3FC", "startPos": 3408, "endPos": 3443, "beforeText": " still manages\nto deliver its own statements on systemic discrimination while keeping things engaging, heartwarming, and\nalmost-embarrassingly funny. ", "extractionText": "It\u2019s called a good time, sweetheart", "afterText": ".\n&quot;&quot;&quot;\n\n", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Zootopia 2</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">good time</span>}</div>"}];
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval = null;
+        let animationSpeed = 1.0;
+
+        function updateDisplay() {
+          const extraction = extractions[currentIndex];
+          if (!extraction) return;
+
+          document.getElementById('attributesContainer').innerHTML = extraction.attributesHtml;
+          document.getElementById('entityInfo').textContent = (currentIndex + 1) + '/' + extractions.length;
+          document.getElementById('posInfo').textContent = '[' + extraction.startPos + '-' + extraction.endPos + ']';
+          document.getElementById('progressSlider').value = currentIndex;
+
+          const playBtn = document.querySelector('.lx-control-btn');
+          if (playBtn) playBtn.textContent = isPlaying ? '⏸ Pause' : '▶️ Play';
+
+          const prevHighlight = document.querySelector('.lx-text-window .lx-current-highlight');
+          if (prevHighlight) prevHighlight.classList.remove('lx-current-highlight');
+          const currentSpan = document.querySelector('.lx-text-window span[data-idx="' + currentIndex + '"]');
+          if (currentSpan) {
+            currentSpan.classList.add('lx-current-highlight');
+            currentSpan.scrollIntoView({block: 'center', behavior: 'smooth'});
+          }
+        }
+
+        function nextExtraction() {
+          currentIndex = (currentIndex + 1) % extractions.length;
+          updateDisplay();
+        }
+
+        function prevExtraction() {
+          currentIndex = (currentIndex - 1 + extractions.length) % extractions.length;
+          updateDisplay();
+        }
+
+        function jumpToExtraction(index) {
+          currentIndex = parseInt(index);
+          updateDisplay();
+        }
+
+        function playPause() {
+          if (isPlaying) {
+            clearInterval(animationInterval);
+            isPlaying = false;
+          } else {
+            animationInterval = setInterval(nextExtraction, animationSpeed * 1000);
+            isPlaying = true;
+          }
+          updateDisplay();
+        }
+
+        window.playPause = playPause;
+        window.nextExtraction = nextExtraction;
+        window.prevExtraction = prevExtraction;
+        window.jumpToExtraction = jumpToExtraction;
+
+        updateDisplay();
+      })();
+    </script>
