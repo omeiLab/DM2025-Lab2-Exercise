@@ -1,0 +1,50 @@
+# LECTURE ANALYSIS: Data Quality: Noise and Outliers
+## Video Segment: 130:05-135:29
+
+[SLIDE DESCRIPTION]
+The slide is titled 'Data Quality'. It lists three questions: 'What kinds of data quality problems?', 'How can we detect problems with the data?', and 'What can we do about these problems?'. Below, it lists 'Examples of data quality problems:' including 'Noise and outliers', 'Missing values', and 'Duplicate data'.
+
+[TRANSCRIPT - 130:05]
+huge problem, noise, missing value, duplicate data. So basically, today's session we want to talking about three different huge problem, noise, missing value, duplicate data.
+
+[SLIDE DESCRIPTION]
+The slide changes to 'Noise'. It defines noise as 'modification of original values' and gives examples like voice distortion on a poor phone or 'snow' on a TV screen. A graph on the right shows a noisy signal plot.
+
+[TRANSCRIPT - 130:13]
+So noise is one you you you guys also mentioned a lot. And then what we need to do. So for example, this is the data actually come have the noise. How do I know that what is the real signal behind them? We might need to do a lot of transformation.
+
+[SLIDE DESCRIPTION]
+The slide updates. A new graph on the left shows two clean sine waves, one green and one blue. The noisy signal graph remains on the right.
+
+[TRANSCRIPT - 130:33]
+Like right now, you see them, they are in curve. Maybe they do having some frequency way. So convert them into frequency domain, then you will find out, oh, they are just two frequency with some noise. Then you can somehow remove that noise from there. So have a lot of different mathematic background to know what kind of thing need to be convert. Because in the end, you might only receive the right figure, right signal right there.
+
+[SLIDE DESCRIPTION]
+The slide changes to 'Challenges for Dealing Noise'. It asks, 'Is it really noise?'. It shows pictures of the 1978 Nobel Prize in Physics winners (radio astronomers from Bell Labs) and Robert Dicke (Princeton University), who discovered cosmic microwave background radiation related to the Big Bang Theory.
+
+[TRANSCRIPT - 131:04]
+Okay. So, I have some question I want, no, I have some story I want to talk. Unfortunately, today I don't have time. But the thing I can tell you is knowing sometimes they are not noise. Okay, so I cannot talk this story too long. These two gentlemen right here are the people, okay, who are the people who are the astronomers, they are engineer, you can thinking about that. They are engineer in the Bell lab. And then they find out that they having a very sensitive microwave receiver. No matter how they try, they always have noise inside. And they don't know why the noise cannot be removed. So they went to this professor. This professor, he is expert in the cosmetic microwave background radiation. He think that is a something related to Big Bang theory. If the Big Bang theory, you know what it means, like the university actually starting with big bang, boom, and everything come out of it. That's from physics their assumption. Some people believe it, some people do not. But people need to find the evidence about it. So this professor through his whole life, he tried to find the evidence. He have a lot of theory, none of them actually have the evidence. But he think if something is right, the evidence will be there and this and that. Okay, so these two gentlemen try to find him. And he actually give him the tips, oh, if you do, maybe that's related to Big Bang. So these two gentlemen actually after work, they write a paper talking about how they try to do this one, how they try to denoise them. In turn out that noise is not noise. It's really the evidence for the Big Bang. So they received the Nobel Prize. How about that professor? Professor received nothing. So later on, if you remember you get the Nobel Prize and thank me and then even though I received nothing.
+
+[SLIDE DESCRIPTION]
+The slide changes to 'Another Story'. It features a picture of Kuo, Chao Lin, a member of BICEP2, who claimed to have found evidence of the Big Bang in 2014 but later admitted the signal might be noise in 2015. A 'History of the Universe' diagram is also shown.
+
+[TRANSCRIPT - 132:54]
+Okay, but then there's another possible people who probably can have the Nobel Prize winner in certain time is actually come from Taiwan. And then around that time, they think they they they went to, they went to uh the South Pole. You know, in order for them to get a big bang uh theory evidence, they need to go for different place. Those people go to South Pole and then try to utilize some very fancy equipment and then afterward, they just say, see, I received several thing. I actually I'm not from Department of Physics, I don't know anything, but they just claim they received that. And then uh after eight months, they admit that signal they think is evidence are noise. Okay. Why are we talking about this story to you? Because noise probably are not noise. The evidence you think might be noise.
+
+[SLIDE DESCRIPTION]
+The slide changes to 'Outliers'. It defines outliers as data objects with characteristics considerably different from most other data objects. A scatter plot shows clusters of black dots with a few red-circled outliers.
+
+[TRANSCRIPT - 133:55]
+Okay. So see that is how interesting the data mining is. The next one is, noise is not sometimes not just noise because they can combine with many, many different thing and then actually it will make you to decide are they outlier or not outlier. So what is outlier? Outlier has been considered they are not ordinary. They are different from others. So for right now, you can actually see for this figure, can you identify which one are outlier? You might say, professor, you already say that there's one who actually marks a red circle, right?
+
+[SLIDE DESCRIPTION]
+The scatter plot on the slide is updated. Many more scattered black dots are added, making it more difficult to distinguish the outliers from the noise.
+
+[TRANSCRIPT - 134:32]
+But if your data like this one, can you still identify who are outlier? Okay, or you say maybe they are just noise. So sometimes to detect outlier from noise is kind of difficult, too. Okay, so you really, really require a lot of um, I don't know right now, understanding. And how do I know they are understanding? I don't know right now. So then you actually need to check your problem, understand what's the context, understand the background in order for you to make the correct hypothesis, utilize the data to validate that hypothesis to see if that is correct or not. So that is how you try to process the data, not just have the data and get everything out of it.
+
+[SLIDE DESCRIPTION]
+The slide changes to 'Missing Values'. It lists two bullet points: 'Reasons for missing values' and 'Handling missing values'.
+
+[TRANSCRIPT - 135:23]
+Then you'll find out you're spend a lot of GPU time trying out something that is not useful.

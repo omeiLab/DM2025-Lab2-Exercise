@@ -4,4 +4,9 @@ config/.env
 .venv/
 *.bin
 *.gz
-
+*.jpg
+*.png
+*.csv
+*.ckpt
+cache/
+segmentation_outputs/
